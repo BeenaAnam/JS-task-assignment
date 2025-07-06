@@ -32,6 +32,7 @@ let isAdmin = true;
 let isLoggedIn = false;
 if(isAdmin===true){
     if(isLoggedIn===false){
+        isLoggedIn = true;
         console.log("Welcome, admin!");  
     }
 }
